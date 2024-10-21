@@ -1,16 +1,17 @@
-EX.9 SIMULATION OF RSA ALGORITHM
+## EX.9 SIMULATION OF RSA ALGORITHM
 
-AIM:
+## AIM:
 To implement encryption and decryption using RSA algorithm.
 
-ALGORITHM:
+## ALGORITHM:
 •	Select 2 prime numbers p and q.
 •	Calculate n and pi(n).
 •	Choose small number e.
 •	Calculate d.
 •	Perform encryption and decryption and get the outputs correspondingly.
 
-PROGRAM:
+## PROGRAM:
+```
 #include <stdio.h>
 #include <math.h>
 
@@ -107,11 +108,11 @@ int main() {
     
     return 0;
 }
-
-OUTPUT:
+```
+## OUTPUT:
 ![Screenshot 2024-10-21 090803](https://github.com/user-attachments/assets/152c3c87-05c1-4f7a-9a52-07e7ac0adfd0)
 
  
 
-RESULT:
-	Hence, the simulation of RSA algorithm is successfully done.
+## RESULT:
+Hence, the simulation of RSA algorithm is successfully done.
